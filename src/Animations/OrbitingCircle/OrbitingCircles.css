@@ -1,0 +1,62 @@
+.orbit-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  position: relative;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; /* Circular shape */
+  position: absolute;
+  border: 5px solid transparent;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.circle1 {
+  border-top-color: #3498db; /* Blue color for the first circle */
+  animation-name: rotateCircle1;
+}
+
+.circle2 {
+  border-top-color: #e74c3c; /* Red color for the second circle */
+  animation-name: rotateCircle2;
+  animation-duration: 2s;
+}
+
+.circle3 {
+  border-top-color: #f39c12; /* Orange color for the third circle */
+  animation-name: rotateCircle3;
+  animation-duration: 2.5s;
+}
+
+@keyframes rotateCircle1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotateCircle2 {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes rotateCircle3 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,49 @@
+.ground {
+  position: relative;
+  width: 600px;
+  height: 200px;
+  background-color: #f4f4f4;
+  overflow: hidden;
+}
+
+.dino {
+  width: 50px;
+  height: 50px;
+  background-color: #333;
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+  animation: jumpDino 1s infinite;
+}
+
+.cactus {
+  width: 20px;
+  height: 40px;
+  background-color: #228b22; /* Forest green color for cactus */
+  position: absolute;
+  bottom: 0;
+  right: -20px;
+  animation: moveCactus 2s linear infinite;
+}
+
+@keyframes jumpDino {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    bottom: 0;
+  }
+  40% {
+    bottom: 30px;
+  }
+}
+
+@keyframes moveCactus {
+  0% {
+    right: -20px;
+  }
+  100% {
+    right: 100%;
+  }
+}

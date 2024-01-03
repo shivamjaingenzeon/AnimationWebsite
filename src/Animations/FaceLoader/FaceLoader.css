@@ -1,0 +1,63 @@
+.face-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.face {
+  width: 100px;
+  height: 100px;
+  background-color: #ffd700; /* Golden color for the face */
+  border-radius: 50%; /* Round shape for face */
+  position: relative;
+  animation: spinFace 2s linear infinite;
+}
+
+.eye {
+  width: 20px;
+  height: 20px;
+  background-color: #000; /* Black color for the eyes */
+  border-radius: 50%; /* Round shape for eyes */
+  position: absolute;
+  top: 30px;
+  animation: popEyes 0.5s ease-in-out infinite;
+}
+
+.left-eye {
+  left: 20px;
+}
+
+.right-eye {
+  right: 20px;
+}
+
+.mouth {
+  width: 60px;
+  height: 30px;
+  border-top: 5px solid #000; /* Black color for the mouth */
+  border-radius: 0 0 60px 60px; /* Curved shape for mouth */
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@keyframes spinFace {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes popEyes {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}

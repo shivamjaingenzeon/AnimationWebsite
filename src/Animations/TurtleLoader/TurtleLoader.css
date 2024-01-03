@@ -1,0 +1,23 @@
+
+.turtle-container {
+  position: relative;
+  width: 300px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.path {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10px;
+  background-color: #ccc;
+}
+
+.turtle {
+  width: 50px; /* Adjust the size as needed */
+  height: 30px; /* Adjust the size as needed */
+  position: absolute;
+  bottom: 10px;
+  animation: moveTurtle 5s linear infinite, bounceTurtle 1s ease-in-out infinite;
+}

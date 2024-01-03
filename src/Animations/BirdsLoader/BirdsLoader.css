@@ -1,0 +1,73 @@
+.sky {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  background-color: #87ceeb; /* Sky blue */
+  overflow: hidden;
+}
+
+.bird {
+  width: 30px;
+  height: 15px;
+  background-color: #ffffff; /* White color for bird */
+  position: absolute;
+  border-radius: 50%; /* Oval shape for bird */
+  animation: moveBird 10s linear infinite;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.bird:before,
+.bird:after {
+  content: "";
+  width: 15px;
+  height: 5px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%; /* Oval shape for bird wings */
+  animation: flapWings 0.5s ease-in-out infinite;
+}
+
+.bird:before {
+  left: -15px;
+}
+
+.bird:after {
+  right: -15px;
+}
+
+.bird1 {
+  animation-delay: 0s;
+  left: -35px;
+}
+
+.bird2 {
+  animation-delay: 3s;
+  left: -35px;
+}
+
+.bird3 {
+  animation-delay: 6s;
+  left: -35px;
+}
+
+@keyframes moveBird {
+  0% {
+    left: -35px; /* Initial position - just out of view */
+  }
+  100% {
+    left: 100%; /* Move out of container view */
+  }
+}
+
+@keyframes flapWings {
+  0%,
+  100% {
+    transform: translateY(-50%);
+  }
+  50% {
+    transform: translateY(-60%);
+  }
+}
