@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkanimationwebsite=self.webpackChunkanimationwebsite||[]).push([[891],{2891:function(e,n,a){a.r(n),a.d(n,{default:function(){return r}});a(2791);var t=a(184);var r=function(){return(0,t.jsx)("div",{className:"center",children:Array.from({length:10}).map((function(e,n){return(0,t.jsx)("div",{className:"wave wave-".concat(n+1)},n)}))})}}}]);
+//# sourceMappingURL=891.a8031575.chunk.js.map

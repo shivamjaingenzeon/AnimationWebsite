@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkanimationwebsite=self.webpackChunkanimationwebsite||[]).push([[853],{1853:function(e,n,t){t.r(n),t.d(n,{default:function(){return i}});t(2791);var a=t(184),i=function(){return(0,a.jsx)("div",{className:"rotate-loader"})}}}]);
+//# sourceMappingURL=853.d305965d.chunk.js.map

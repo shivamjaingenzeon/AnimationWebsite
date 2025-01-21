@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkanimationwebsite=self.webpackChunkanimationwebsite||[]).push([[486],{4486:function(i,e,s){s.r(e),s.d(e,{default:function(){return a}});s(2791);var n=s(184),a=function(){return(0,n.jsxs)("div",{className:"wave-loader",children:[(0,n.jsx)("div",{}),(0,n.jsx)("div",{}),(0,n.jsx)("div",{}),(0,n.jsx)("div",{}),(0,n.jsx)("div",{})]})}}}]);
+//# sourceMappingURL=486.9d11d128.chunk.js.map

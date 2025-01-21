@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkanimationwebsite=self.webpackChunkanimationwebsite||[]).push([[732],{2732:function(n,e,i){i.r(e),e.default=".copy-icon {\r\n  display: flex;\r\n  justify-content: flex-end;\r\n  height: 20px;\r\n  width: 20px;\r\n}\r\n"}}]);
+//# sourceMappingURL=732.9f4b4401.chunk.js.map

@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkanimationwebsite=self.webpackChunkanimationwebsite||[]).push([[986],{986:function(n,e,i){i.r(e),i.d(e,{default:function(){return a}});i(2791);var t=i(184),a=function(){return(0,t.jsx)(t.Fragment,{children:(0,t.jsx)("div",{className:"bouncing-ball"})})}}}]);
+//# sourceMappingURL=986.3487fe89.chunk.js.map

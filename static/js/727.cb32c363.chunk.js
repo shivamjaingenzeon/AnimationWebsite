@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkloadinganimationapp=self.webpackChunkloadinganimationapp||[]).push([[727],{1727:function(c,i,a){a.r(i),a.d(i,{default:function(){return n}});a(2791);var e=a(184),n=function(){return(0,e.jsxs)("div",{className:"orbit-container",children:[(0,e.jsx)("div",{className:"circle circle1"}),(0,e.jsx)("div",{className:"circle circle2"}),(0,e.jsx)("div",{className:"circle circle3"})]})}}}]);
-//# sourceMappingURL=727.cb32c363.chunk.js.map

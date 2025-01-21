@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkloadinganimationapp=self.webpackChunkloadinganimationapp||[]).push([[420],{8420:function(r,n,a){a.r(n),n.default=".rotate-loader {\r\n  width: 40px;\r\n  height: 40px;\r\n  border-radius: 50%;\r\n  border-top: 4px solid #3b44e2;\r\n  border-right: 4px solid transparent;\r\n  animation: rotate 1.2s linear infinite;\r\n}\r\n\r\n@keyframes rotate {\r\n  0% {\r\n    transform: rotate(0deg);\r\n  }\r\n  100% {\r\n    transform: rotate(360deg);\r\n  }\r\n}\r\n"}}]);
-//# sourceMappingURL=420.20146444.chunk.js.map

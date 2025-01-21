@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkloadinganimationapp=self.webpackChunkloadinganimationapp||[]).push([[931],{9931:function(e,a,s){s.r(a),s.d(a,{default:function(){return i}});s(2791);var n=s(184),i=function(){return(0,n.jsx)("div",{className:"face-container",children:(0,n.jsxs)("div",{className:"face",children:[(0,n.jsx)("div",{className:"eye left-eye"}),(0,n.jsx)("div",{className:"eye right-eye"}),(0,n.jsx)("div",{className:"mouth"})]})})}}}]);
-//# sourceMappingURL=931.59e9a7dc.chunk.js.map

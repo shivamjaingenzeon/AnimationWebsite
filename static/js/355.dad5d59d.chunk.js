@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkanimationwebsite=self.webpackChunkanimationwebsite||[]).push([[355],{4355:function(a,s,e){e.r(s),e.d(s,{default:function(){return n}});e(2791);var i=e(184),n=function(){return(0,i.jsx)("div",{className:"hat-container",children:(0,i.jsxs)("div",{className:"hat",children:[(0,i.jsx)("div",{className:"hat-top"}),(0,i.jsx)("div",{className:"hat-brim"})]})})}}}]);
+//# sourceMappingURL=355.dad5d59d.chunk.js.map

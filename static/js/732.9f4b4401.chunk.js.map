@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/732.9f4b4401.chunk.js","mappings":"gIAAA,0H","sources":["webpack://animationwebsite/./src/Components/CopyButton/CopyButton.css?ba09"],"sourcesContent":["export default \".copy-icon {\\r\\n  display: flex;\\r\\n  justify-content: flex-end;\\r\\n  height: 20px;\\r\\n  width: 20px;\\r\\n}\\r\\n\";"],"names":[],"sourceRoot":""}
