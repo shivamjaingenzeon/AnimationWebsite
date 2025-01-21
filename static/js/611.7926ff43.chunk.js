@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkloadinganimationapp=self.webpackChunkloadinganimationapp||[]).push([[611],{7611:function(n,a,i){i.r(a),i.d(a,{default:function(){return e}});i(2791);var s=i(184),e=function(){return(0,s.jsx)("div",{className:"ring-container",children:(0,s.jsxs)("div",{className:"ring",children:[(0,s.jsx)("span",{className:"ring-text",children:"Loading"}),(0,s.jsx)("span",{className:"ring-span"})]})})}}}]);
+//# sourceMappingURL=611.7926ff43.chunk.js.map

@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkloadinganimationapp=self.webpackChunkloadinganimationapp||[]).push([[902],{7902:function(s,a,n){n.r(a),n.d(a,{default:function(){return l}});n(2791);var i=n(184);var l=function(){return(0,i.jsx)("div",{className:"hourglass-loader",children:(0,i.jsxs)("div",{className:"hourglass",children:[(0,i.jsx)("div",{className:"glass-top"}),(0,i.jsx)("div",{className:"glass-bottom"}),(0,i.jsx)("div",{className:"sand"})]})})}}}]);
+//# sourceMappingURL=902.128212bb.chunk.js.map

@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkloadinganimationapp=self.webpackChunkloadinganimationapp||[]).push([[3],{8003:function(n,e,r){r.r(e),e.default=".loading_screen {\r\n  top: 0;\r\n  left: 0;\r\n  width: 100%;\r\n  height: 50vh;\r\n  background: rgba(130, 127, 127, 0.7);\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n"}}]);
+//# sourceMappingURL=3.183d85f0.chunk.js.map

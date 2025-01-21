@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkloadinganimationapp=self.webpackChunkloadinganimationapp||[]).push([[462],{8462:function(i,a,s){s.r(a),s.d(a,{default:function(){return d}});s(2791);var n=s(184),d=function(){return(0,n.jsxs)("div",{className:"sky",children:[(0,n.jsx)("div",{className:"bird bird1"}),(0,n.jsx)("div",{className:"bird bird2"}),(0,n.jsx)("div",{className:"bird bird3"})]})}}}]);
+//# sourceMappingURL=462.6bdd15c2.chunk.js.map

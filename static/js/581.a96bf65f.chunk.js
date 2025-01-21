@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkloadinganimationapp=self.webpackChunkloadinganimationapp||[]).push([[581],{4581:function(n,r,i){i.r(r),r.default=".loading-container {\r\n  width: 100%;\r\n  height: 20px;\r\n  background-color: #eee;\r\n  border-radius: 10px;\r\n  overflow: hidden;\r\n}\r\n\r\n.loading-bar {\r\n  height: 100%;\r\n  background-color: #0074d9; /* Loading bar color */\r\n  color: white;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  transition: width 0.5s ease-in-out;\r\n}\r\n"}}]);
+//# sourceMappingURL=581.a96bf65f.chunk.js.map

@@ -1,0 +1,2 @@
+.rotate-loader{-webkit-animation:rotate 1.2s linear infinite;animation:rotate 1.2s linear infinite;border-radius:50%;border-right:4px solid transparent;border-top:4px solid #3b44e2;height:40px;width:40px}@-webkit-keyframes rotate{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@keyframes rotate{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}
+/*# sourceMappingURL=853.347ea61e.chunk.css.map*/

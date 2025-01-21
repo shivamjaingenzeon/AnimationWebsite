@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkloadinganimationapp=self.webpackChunkloadinganimationapp||[]).push([[355],{4355:function(a,n,i){i.r(n),i.d(n,{default:function(){return t}});i(2791);var s=i(184),t=function(){return(0,s.jsx)("div",{className:"hat-container",children:(0,s.jsxs)("div",{className:"hat",children:[(0,s.jsx)("div",{className:"hat-top"}),(0,s.jsx)("div",{className:"hat-brim"})]})})}}}]);
+//# sourceMappingURL=355.7205f47c.chunk.js.map

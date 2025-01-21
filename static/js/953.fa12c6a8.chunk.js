@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkloadinganimationapp=self.webpackChunkloadinganimationapp||[]).push([[953],{1953:function(n,a,i){i.r(a),i.d(a,{default:function(){return e}});i(2791);var s=i(184),e=function(){return(0,s.jsxs)("div",{className:"pulse-loader",children:[(0,s.jsx)("div",{}),(0,s.jsx)("div",{}),(0,s.jsx)("div",{})]})}}}]);
+//# sourceMappingURL=953.fa12c6a8.chunk.js.map

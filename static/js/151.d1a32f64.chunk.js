@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkloadinganimationapp=self.webpackChunkloadinganimationapp||[]).push([[151],{3151:function(a,n,s){s.r(n),s.d(n,{default:function(){return t}});s(2791);var i=s(184),t=function(){return(0,i.jsxs)("div",{className:"bouncing-dots-container",children:[(0,i.jsx)("div",{className:"dot"}),(0,i.jsx)("div",{className:"dot"}),(0,i.jsx)("div",{className:"dot"})]})}}}]);
+//# sourceMappingURL=151.d1a32f64.chunk.js.map
