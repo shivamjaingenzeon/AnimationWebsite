@@ -3,28 +3,39 @@ import "./Home.css";
 
 const Home = () => {
   return (
-    <div className="home-container">
-      <div className="logo-container">
-        <img
-          src="https://blog.hubspot.com/hs-fs/hubfs/ezgif-3-5a4b29c94d53-1.gif?width=1000&name=ezgif-3-5a4b29c94d53-1.gif"
-          alt="Loading Animations Logo"
-          className="logo"
-        />
+    <div className="home_container">
+      <div className="home_logo-container">
+        <div className="home_loading-spinner"></div> {/* Vibrant spinner */}
       </div>
-      <h1>Welcome to Loading Animations!</h1>
-      <p>
-        Searching for the perfect loading animation for your project? Look no
-        further! Here, you can:
-      </p>
-      <ul>
-        <li>👁️‍🗨️ View a variety of loading animations.</li>
-        <li>📜 Access the source code and CSS for any animation.</li>
-        <li>📋 Easily copy the code to use in your projects.</li>
-      </ul>
-      <p>
-        Navigate to the animations section, choose your favorite animation, and
-        start implementing it in your projects today!
-      </p>
+      <div className="home_engaging-text">
+        Unleash the Power of Animation!
+      </div>
+      <div className="home_subheading">
+        Choose from a wide range of animations that will elevate your web design and user experience.
+      </div>
+
+      <div className="home_cards-container">
+        {/* Card 1 */}
+        <div className="home_card">
+          <div className="home_card-icon">🎨</div>
+          <h3>Creative Animations</h3>
+          <p>Explore unique and visually appealing loading animations to make your projects stand out.</p>
+        </div>
+
+        {/* Card 2 */}
+        <div className="home_card">
+          <div className="home_card-icon">📜</div>
+          <h3>Code Ready</h3>
+          <p>Copy and paste the code directly into your project with ease. It’s that simple!</p>
+        </div>
+
+        {/* Card 3 */}
+        <div className="home_card">
+          <div className="home_card-icon">🚀</div>
+          <h3>Fast & Efficient</h3>
+          <p>Optimized animations that ensure quick load times without compromising on style.</p>
+        </div>
+      </div>
     </div>
   );
 };

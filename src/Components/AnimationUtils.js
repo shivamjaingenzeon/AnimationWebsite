@@ -1,27 +1,22 @@
 import React from "react";
-import LinearLoadingSourceCode from "../Components/LoadingComponent/LoadingSourceCode";
-import LoadingScreenSourceCode from "../Components/LoadingScreen/LoadingScreenSourceCode";
-import CircularLoadingSourceCode from "../Components/CircularLoading/CircularLoadingSourceCode";
-import DotLoadingAnimationSourceCode from "../Components/DotLoadingAnimation/DotLoadingSourcode";
-import CopyButtonSourceCode from "../Components/CopyButton/CopyButtonSourceCode";
-import BouncingBallSourceCode from "../Components/BouncingBall/BouncingBallSourceCode";
-import GearSourceCode from "../Components/Gear/GearSourceCode";
-import PulseLoaderSourceCode from "../Animations/PulseLoader/PulseLoaderSourceCode";
-import WaveLoaderSourceCode from "../Animations/WaveLoader/WaveLoaderSourceCode";
-import RotateLoaderSourceCode from "../Animations/RotateLoader/RotateLoaderSourceCode";
-import TurtleLoaderSourceCode from "../Animations/TurtleLoader/TurtleLoaderSourceCode";
-import BirdsLoaderSourceCode from "../Animations/BirdsLoader/BirdsLoaderSourceCode";
-import DinoLoaderSourceCode from "../Animations/DinoLoader/DinoLoaderSourceCode";
+import DeterminateLoadingAnimationSourceCode from "../Animations/DeterminateLoadingAnimation/DeterminateLoadingAnimationSourceCode";
 import FaceLoaderSourceCode from "../Animations/FaceLoader/FaceLoaderSourceCode";
 import HatLoaderSourceCode from "../Animations/HatLoader/HatLoaderSourceCode";
-import OrbitingCirclesSourceCode from "../Animations/OrbitingCircle/OrbitingCirclesSourceCode";
-import CalculatorSourceCode from "../Animations/Calculator/CalculatorSourcode";
-import WaveAnimationSourceCode from "../Animations/WaveAnimation/WaveAnimationSourceCode";
-import DeterminateLoadingAnimationSourceCode from "../Animations/DeterminateLoadingAnimation/DeterminateLoadingAnimationSourceCode";
 import HourGlassLoaderSourceCode from "../Animations/HourGlassLoader/HourGlassLoaderSourceCode";
+import LoadingAnimation2SourceCode from '../Animations/LoadingAnimation2/LoadingAnimation2SourceCode';
+import OrbitingCirclesSourceCode from "../Animations/OrbitingCircle/OrbitingCirclesSourceCode";
+import PulseLoaderSourceCode from "../Animations/PulseLoader/PulseLoaderSourceCode";
 import RainbowLoadingSpinnerSourceCode from "../Animations/RainbowLoadingSpinner/RainbowLoadingSpinnerSourceCode";
 import RingLoaderSourceCode from "../Animations/RingLoader/RingLoaderSourceCode";
-import LoadingAnimation2SourceCode from '../Animations/LoadingAnimation2/LoadingAnimation2SourceCode';
+import RotateLoaderSourceCode from "../Animations/RotateLoader/RotateLoaderSourceCode";
+import WaveAnimationSourceCode from "../Animations/WaveAnimation/WaveAnimationSourceCode";
+import WaveLoaderSourceCode from "../Animations/WaveLoader/WaveLoaderSourceCode";
+import BouncingBallSourceCode from "../Components/BouncingBall/BouncingBallSourceCode";
+import CircularLoadingSourceCode from "../Components/CircularLoading/CircularLoadingSourceCode";
+import CopyButtonSourceCode from "../Components/CopyButton/CopyButtonSourceCode";
+import DotLoadingAnimationSourceCode from "../Components/DotLoadingAnimation/DotLoadingSourcode";
+import LinearLoadingSourceCode from "../Components/LoadingComponent/LoadingSourceCode";
+import LoadingScreenSourceCode from "../Components/LoadingScreen/LoadingScreenSourceCode";
 
 export const animations = [
   {
@@ -71,33 +66,12 @@ export const animations = [
     description: "Description for Animation 2",
   },
   {
-    name: "Copy Text Icon",
-    description: "Description for Animation 2",
-  },
-  {
     name: "Bouncing Ball",
     description: "Description for Animation 2",
   },
   {
     name: "Rotate Loader",
-  },
-  {
-    name: "Turtle Loader",
-  },
-  {
-    name: "Birds Loader",
-  },
-  {
-    name: "Dino Loader",
-  },
-
-  {
-    name: "Hat Loader",
-  },
-  {
-    name: "Gear",
-    description: "Description for Animation 2",
-  },
+  }
 ];
 
 export const sourceCodeComponents = {
@@ -107,23 +81,17 @@ export const sourceCodeComponents = {
   "Message Typing Loading": DotLoadingAnimationSourceCode,
   "Copy Text Icon": CopyButtonSourceCode,
   "Bouncing Ball": BouncingBallSourceCode,
-  Gear: GearSourceCode,
   "Pulse Loader": PulseLoaderSourceCode,
   "Wave Loader": WaveLoaderSourceCode,
   "Rotate Loader": RotateLoaderSourceCode,
-  "Turtle Loader": TurtleLoaderSourceCode,
-  "Birds Loader": BirdsLoaderSourceCode,
-  "Dino Loader": DinoLoaderSourceCode,
   "Face Loader": FaceLoaderSourceCode,
   "Hat Loader": HatLoaderSourceCode,
   "Orbiting Circle": OrbitingCirclesSourceCode,
-  Calculator: CalculatorSourceCode,
   "Wave Animation": WaveAnimationSourceCode,
   "Determinate Loading Animation": DeterminateLoadingAnimationSourceCode,
   "Hour Glass Loader": HourGlassLoaderSourceCode,
   "Rainbow Loading Spinner": RainbowLoadingSpinnerSourceCode,
   "Ring Loader": RingLoaderSourceCode,
-  "Loading Animation 2": LoadingAnimation2SourceCode,
 };
 
 export const loadCssContent = async (animationName) => {
@@ -194,9 +162,6 @@ export const loadCssContent = async (animationName) => {
       return import(
         "!!raw-loader!../Animations/OrbitingCircle/OrbitingCircles.css"
       );
-    case "Calculator":
-      // eslint-disable-next-line import/no-webpack-loader-syntax
-      return import("!!raw-loader!../Animations/Calculator/Calculator.css");
     case "Determinate Loading Animation":
       // eslint-disable-next-line import/no-webpack-loader-syntax
       return import(
@@ -268,10 +233,6 @@ export const loadAnimationComponent = (animationName) => {
       return React.lazy(() =>
         import("../Animations/OrbitingCircle/OrbitingCircles")
       );
-    case "Calculator":
-      return React.lazy(() => import("../Animations/Calculator/Calculator"));
-    case "Loading Animation 2":
-      return React.lazy(() => import("../Animations/LoadingAnimation2/LoadingAnimation2"));
     case "Determinate Loading Animation":
       return React.lazy(() =>
         import(

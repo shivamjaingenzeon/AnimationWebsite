@@ -4,6 +4,7 @@
 .sidebar ul::-webkit-scrollbar {
   display: none;
 }
+
 .sidebar ::-webkit-scrollbar {
   display: none;
 }
@@ -17,11 +18,11 @@
   top: 60px;
   left: 0;
   bottom: 0;
-   border-right: 2px solid #e0e0e0;
+  border-right: 2px solid #e0e0e0;
   transition: all 0.3s ease;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
   scrollbar-width: none;
-  
+
 }
 
 .animation-list {
@@ -38,7 +39,8 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
-  max-height: calc(100% - 100px); /* Adjust the max height based on your design */
+  max-height: calc(100% - 100px);
+  /* Adjust the max height based on your design */
   overflow-y: auto;
 }
 
@@ -73,7 +75,8 @@
 
 /* Styles for the search bar container */
 .search-container {
-  position: sticky; /* Fix the search bar at the top */
+  position: sticky;
+  /* Fix the search bar at the top */
   background-color: #f8f9fa;
   margin-right: 5%;
 }
